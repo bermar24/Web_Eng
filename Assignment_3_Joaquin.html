@@ -33,15 +33,47 @@
             <li><a href="https://en.wikipedia.org/wiki/Harry_Potter">Harry Potter</a></li>
             <li><a href="https://en.wikipedia.org/wiki/The_Alchemist_(novel)">The Alchemist</a></li>
         </ol>
-    <hr/>
-    <!-- A subheading for "Conclusion".-->
-    <h2>Conclusion</h2>
-    <!-- A closing paragraph that summarizes what you wrote and thanks the reader for reading.-->
-    <p>As a Short conclusion I would like to <u>than you for reed my blog</u>.
-        It is a pleasure for this World citizen addict to adrenaline and fantasy books to have you as a reader.</p>
-    <!-- Make sure to use appropriate HTML text tags for each element, such as <h1>, <p>, <ul>, and <ol>.-->
-    <p>16<sup>th</sup> January 2025</p>
-
+    <!--My favorie movies-->
+    <table border="1">
+        <caption><strong>My favorite Movies</strong></caption>
+        <thead>
+        <tr>
+            <th>Title</th>
+            <th>Director</th>
+            <th>Release Year</th>
+            <th>IMDb Link</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td><strong>Titanic</strong></td>
+            <td>James Cameron</td>
+            <td>1997</td>
+            <td><a href="https://www.imdb.com/title/tt0120338/">Link</a></td>
+        </tr>
+        <tr>
+            <td><strong>Blood Diamonds</strong></td>
+            <td>Edward Zwick</td>
+            <td>2006</td>
+            <td><a href="https://www.imdb.com/title/tt0450259/">Link</a></td>
+        </tr>
+        <tr>
+            <td><strong>Inception</strong></td>
+            <td>Christopher Nolan</td>
+            <td>2010</td>
+            <td><a href="https://www.imdb.com/title/tt1375666/">Link</a></td>
+        </tr>
+        <tr>
+            <td><strong>Pirates of Caribbean</strong></td>
+            <td>Gore Verbinski</td>
+            <td>2003</td>
+            <td><a href="https://www.imdb.com/title/tt0325980/">Link</a></td>
+        </tr>
+        </tbody>
+    </table>
+    <br/>
+    <!--This is the map link-->
+    <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d13155866.100308022!2d-1.8586494894959296!3d48.87781497651712!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sde!4v1737128526260!5m2!1sen!2sde" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">This is a map of Europe</iframe>
 <!--This is a table-->
     <table border="1">
         <caption>Some European countries</caption>
@@ -98,13 +130,54 @@
         </tr>
         </tbody>
     </table>
-    <br/>
-<!--This is the map link-->
-    <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d13155866.100308022!2d-1.8586494894959296!3d48.87781497651712!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sde!4v1737128526260!5m2!1sen!2sde" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">This is a map of Europe</iframe>
-    <br/>
+    <hr/>
+    <!-- A subheading for "Conclusion".-->
+    <h2>Conclusion</h2>
+    <!-- A closing paragraph that summarizes what you wrote and thanks the reader for reading.-->
+    <p>As a Short conclusion I would like to <u>than you for reed my blog</u>.
+        It is a pleasure for this World citizen addict to adrenaline and fantasy books to have you as a reader.</p>
+    <!-- Make sure to use appropriate HTML text tags for each element, such as <h1>, <p>, <ul>, and <ol>.-->
+    <p>16<sup>th</sup> January 2025</p>
+
 <!--Contact button wit subject add-->
     <a href="mailto:email@example.com?subject=Blog%20reader%20message" class="email-link">Contact me</a>
     <br/>
+    <fieldset>
+        <legend>Contact Me Form</legend>
+        <form action="https://httpbin.org/get" method="POST">
+        <!-- Full Name (Required)-->
+        <label for="fullName">Full Name (Required):</label>
+        <input type="text" id="fullName" name="fullName" maxlength="30" required>
+        <br/>
+        <!-- Email Address -->
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" maxlength="30">
+        <br/>
+        <!-- Phone Number -->
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone">
+        <br/>
+        <!-- Gender -->
+        <label>Gender:</label>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label>
+        <input type="radio" id="other" name="gender" value="other">
+        <label for="other">Other</label>
+        <br/>
+        <!-- Favorite Color -->
+        <label for="color">Favorite Color:</label>
+        <input type="color" id="color" name="color">
+        <br/>
+        <!-- Message -->
+        <label for="message">Message:</label><br/>
+        <textarea id="message" name="message" rows="5"></textarea>
+        <br/>
+        <!-- Submit Button -->
+        <button type="submit">Submit</button>
+    </form>
+    </fieldset>
 <!--back to Top-->
     <a href="#Top" class="back-to-top">Back to Top</a>
 
