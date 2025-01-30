@@ -1,0 +1,108 @@
+project-name/
+│
+├── frontend/
+│   ├── public/
+│   │   ├── index.html             # Main HTML file
+│   │   ├── favicon.ico            # Website favicon
+│   │   ├── assets/
+│   │   │   ├── images/            # Static images
+│   │   │   ├── fonts/             # Custom fonts
+│   │   │   └── translations/      # Language JSON files (e.g., en.json, de.json)
+│   │   └── robots.txt             # SEO-related configurations
+│   │
+│   ├── src/
+│   │   ├── components/
+│   │   │   ├── Home/
+│   │   │   │   ├── Home.js        # Home page component
+│   │   │   │   └── Home.css       # Home page styles
+│   │   │   ├── Portfolio/
+│   │   │   │   ├── EbenbockBio.js # Ebenböck Bio component
+│   │   │   │   ├── Images.js      # Clinic images gallery component
+│   │   │   │   └── Reviews.js     # Client reviews and stories component
+│   │   │   ├── Services/
+│   │   │   │   ├── Treatments/
+│   │   │   │   │   ├── Physiotherapy.js
+│   │   │   │   │   ├── ManualTherapy.js
+│   │   │   │   │   ├── Massages.js
+│   │   │   │   │   ├── FunctionalTraining.js
+│   │   │   │   │   ├── LymphDrainage.js
+│   │   │   │   │   └── Prices.js
+│   │   │   │   ├── Workshops.js
+│   │   │   │   └── GroupSessions.js
+│   │   │   ├── Contact/
+│   │   │   │   ├── Address.js     # Address and map component
+│   │   │   │   ├── PhoneEmail.js  # Phone and email contact info
+│   │   │   │   └── BookingForm.js # Online booking form
+│   │   │   └── Layout/
+│   │   │       ├── Navbar.js      # Navigation bar
+│   │   │       ├── Footer.js      # Footer component
+│   │   │       └── Responsive.js  # Responsive layout adjustments
+│   │   ├── styles/
+│   │   │   ├── global.css         # Global CSS styles
+│   │   │   └── variables.css      # CSS variables for themes
+│   │   ├── utils/
+│   │   │   ├── api.js             # API integration helpers
+│   │   │   └── i18n.js            # Language switching logic
+│   │   ├── App.js                 # Root React/JS app file
+│   │   └── index.js               # Entry point for the application
+│   └── package.json               # Frontend dependencies
+│
+├── backend/
+│   ├── src/
+│   │   ├── controllers/
+│   │   │   ├── portfolioController.js
+│   │   │   ├── servicesController.js
+│   │   │   ├── contactController.js
+│   │   │   └── bookingController.js
+│   │   ├── routes/
+│   │   │   ├── portfolioRoutes.js
+│   │   │   ├── servicesRoutes.js
+│   │   │   ├── contactRoutes.js
+│   │   │   └── bookingRoutes.js
+│   │   ├── models/
+│   │   │   ├── User.js            # Example model (optional)
+│   │   │   ├── Booking.js
+│   │   │   └── Review.js
+│   │   ├── middlewares/
+│   │   │   ├── authMiddleware.js
+│   │   │   └── errorHandler.js
+│   │   ├── utils/
+│   │   │   ├── emailService.js    # Email sending logic
+│   │   │   └── logger.js          # Logging logic
+│   │   ├── app.js                 # Main Express application
+│   │   └── server.js              # Server entry point
+│   └── package.json               # Backend dependencies
+│
+├── database/
+│   ├── migrations/                # Database migrations
+│   ├── seeders/                   # Seed files to populate the database
+│   ├── schemas/                   # Database schema designs
+│   ├── config.js                  # Database connection configuration
+│   └── db.js                      # Database connection logic
+│
+├── tests/
+│   ├── frontend/                  # Frontend unit and integration tests
+│   ├── backend/                   # Backend unit and integration tests
+│   ├── e2e/                       # End-to-end tests
+│   └── jest.config.js             # Testing configuration
+│
+├── .github/
+│   ├── workflows/
+│   │   ├── ci.yml                 # Continuous Integration workflow
+│   │   └── cd.yml                 # Continuous Deployment workflow
+│   ├── ISSUE_TEMPLATE/
+│   │   ├── bug_report.md          # Bug reporting template
+│   │   └── feature_request.md     # Feature request template
+│   ├── PULL_REQUEST_TEMPLATE.md   # Pull request template
+│   └── CODEOWNERS                 # Repository owners for approvals
+│
+├── docs/
+│   ├── README.md                  # Project documentation
+│   ├── CONTRIBUTING.md            # Contribution guidelines
+│   ├── CHANGELOG.md               # Version history
+│   └── ARCHITECTURE.md            # Overview of architecture
+│
+├── .env                           # Environment variables
+├── .gitignore                     # Git ignore file
+├── LICENSE                        # License file
+└── README.md                      # Project overview

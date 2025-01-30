@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>"Contact form Assignment"</title>
+</head>
+<body>
+<header>
+    <nav>
+        <tr>
+            <td><a href="./aboutMe.html">AboutMe</a></td>
+            <td><a href="./countries.html">Countries</a></td>
+            <td><a href="./contact.html">Contact</a></td>
+        </tr>
+    </nav>
+</header>
+
+<fieldset>
+    <legend>Contact Me Form</legend>
+    <form action="https://httpbin.org/get" method="POST">
+        <!-- Full Name (Required)-->
+        <label for="fullName">Full Name (Required):</label>
+        <input type="text" id="fullName" name="fullName" maxlength="30" required>
+        <br/>
+        <!-- Email Address -->
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" maxlength="30">
+        <br/>
+        <!-- Phone Number -->
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone">
+        <br/>
+        <!-- Gender -->
+        <label>Gender:</label>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label>
+        <input type="radio" id="other" name="gender" value="other">
+        <label for="other">Other</label>
+        <br/>
+        <!-- Favorite Color -->
+        <label for="color">Favorite Color:</label>
+        <input type="color" id="color" name="color">
+        <br/>
+        <!-- Message -->
+        <label for="message">Message:</label><br/>
+        <textarea id="message" name="message" rows="5"></textarea>
+        <br/>
+        <!-- Submit Button -->
+        <button type="submit">Submit</button>
+    </form>
+</fieldset>
+
+</body>
+
+
+</html>

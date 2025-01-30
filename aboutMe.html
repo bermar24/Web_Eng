@@ -2,9 +2,19 @@
 <html lang="en">
 <!--A title that says "About me! Assignment"-->
 <head>
-    <title>"About me! Assignment</title>
+    <title>"About me Assignment"</title>
 </head>
 <body>
+   <header>
+       <nav>
+           <tr>
+               <td><a href="./aboutMe.html">AboutMe</a></td>
+               <td><a href="./countries.html">Countries</a></td>
+               <td><a href="./contact.html">Contact</a></td>
+           </tr>
+       </nav>
+   </header>
+   <main>
     <!-- A heading for "Introduction".-->
     <h1 id="Top">Introduction</h1>
     <!-- A paragraph that introduces yourself, including your name, age, and where you're from.-->
@@ -72,65 +82,7 @@
         </tbody>
     </table>
     <br/>
-    <!--This is the map link-->
-    <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d13155866.100308022!2d-1.8586494894959296!3d48.87781497651712!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sde!4v1737128526260!5m2!1sen!2sde" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">This is a map of Europe</iframe>
-<!--This is a table-->
-    <table border="1">
-        <caption>Some European countries</caption>
-        <thead>
-        <tr>
-            <th>&nbsp;</th>
-            <th>EU</th>
-            <th>Not EU</th>
-            <th>visited</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr>
-            <td>Spain</td>
-            <td>*</td>
-            <td></td>
-            <td>yes</td>
-        </tr>
-        <tr>
-            <td>Germany</td>
-            <td>*</td>
-            <td></td>
-            <td>yes</td>
-        </tr>
-        <tr>
-            <td>United Kingdom</td>
-            <td></td>
-            <td>*</td>
-            <td>no</td>
-        </tr>
-        <tr>
-            <td>France</td>
-            <td>*</td>
-            <td></td>
-            <td>yes</td>
-        </tr>
-        <tr>
-            <td>Switzerland</td>
-            <td></td>
-            <td>*</td>
-            <td>yes</td>
-        </tr>
-        <tr>
-            <td>Croatia</td>
-            <td>*</td>
-            <td></td>
-            <td>yes</td>
-        </tr>
-        <tr>
-            <td>Italy</td>
-            <td>*</td>
-            <td></td>
-            <td>yes</td>
-        </tr>
-        </tbody>
-    </table>
-    <hr/>
+       <hr/>
     <!-- A subheading for "Conclusion".-->
     <h2>Conclusion</h2>
     <!-- A closing paragraph that summarizes what you wrote and thanks the reader for reading.-->
@@ -142,45 +94,13 @@
 <!--Contact button wit subject add-->
     <a href="mailto:email@example.com?subject=Blog%20reader%20message" class="email-link">Contact me</a>
     <br/>
-    <fieldset>
-        <legend>Contact Me Form</legend>
-        <form action="https://httpbin.org/get" method="POST">
-        <!-- Full Name (Required)-->
-        <label for="fullName">Full Name (Required):</label>
-        <input type="text" id="fullName" name="fullName" maxlength="30" required>
-        <br/>
-        <!-- Email Address -->
-        <label for="email">Email Address:</label>
-        <input type="email" id="email" name="email" maxlength="30">
-        <br/>
-        <!-- Phone Number -->
-        <label for="phone">Phone Number:</label>
-        <input type="tel" id="phone" name="phone">
-        <br/>
-        <!-- Gender -->
-        <label>Gender:</label>
-        <input type="radio" id="male" name="gender" value="male">
-        <label for="male">Male</label>
-        <input type="radio" id="female" name="gender" value="female">
-        <label for="female">Female</label>
-        <input type="radio" id="other" name="gender" value="other">
-        <label for="other">Other</label>
-        <br/>
-        <!-- Favorite Color -->
-        <label for="color">Favorite Color:</label>
-        <input type="color" id="color" name="color">
-        <br/>
-        <!-- Message -->
-        <label for="message">Message:</label><br/>
-        <textarea id="message" name="message" rows="5"></textarea>
-        <br/>
-        <!-- Submit Button -->
-        <button type="submit">Submit</button>
-    </form>
-    </fieldset>
+
 <!--back to Top-->
     <a href="#Top" class="back-to-top">Back to Top</a>
+    </main>
+    <footer>
 
+    </footer>
 </body>
 <!--    ● Extra Credit:-->
 <!--    ○ Show the importance of some words by using different styles.-->
