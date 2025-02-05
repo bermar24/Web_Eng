@@ -1,29 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
-<!--A title that says "About me! Assignment"-->
 <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>"About me Assignment"</title>
+    <!--Applying CSS and JavaScript to HTML-->
+    <link rel="stylesheet" type="text/css" href="styles/styles.css">
 </head>
 <body>
-   <header>
-       <nav>
-           <tr>
-               <td><a href="./aboutMe.html">AboutMe</a></td>
-               <td><a href="./countries.html">Countries</a></td>
-               <td><a href="./contact.html">Contact</a></td>
-           </tr>
-       </nav>
-   </header>
-   <main>
+<header>
+    <div id="navbar"></div>
+    <script src="components/navbar/navbar.js"></script>
+</header>
+<main id="Top">
     <!-- A heading for "Introduction".-->
-    <h1 id="Top">Introduction</h1>
+    <section>
+    <h1>Introduction</h1>
     <!-- A paragraph that introduces yourself, including your name, age, and where you're from.-->
     <p>Hello, my name is <strong>Joaquin Berriel</strong>. In this short paragraph I would like to introduce myself shortly.
         I am 29 years old, and I was born in <em>Uruguay</em>. I have to explain that I grow up in <em>Italy</em> and I Moved to <em>Spain</em> when I was 14
         there I did mostly of my education. That and the fact that I am actually living in Germany make me introduce myself as a <strong><em>World citizen</em></strong>.</p>
-    <hr/>
+    </section>
+        <hr/>
     <!--A subheading for "Hobbies".-->
-    <h2>Hobbies</h2>
+    <article>
+    <div>
+        <h2>Hobbies</h2>
     <!-- An unordered list of at least three hobbies that you enjoy.-->
         <ul>
             <li>Extreme Sports for example:</li>
@@ -35,6 +38,8 @@
             <li>Camping</li>
             <li>Animals</li>
         </ul>
+    </div>
+    <div>
     <!-- A subheading for "Favorite Books".-->
     <h2>Favorite Books</h2>
     <!-- An ordered list of at least three of your favorite books.-->
@@ -81,6 +86,8 @@
         </tr>
         </tbody>
     </table>
+    </div>
+    </article>
     <br/>
        <hr/>
     <!-- A subheading for "Conclusion".-->
@@ -91,20 +98,17 @@
     <!-- Make sure to use appropriate HTML text tags for each element, such as <h1>, <p>, <ul>, and <ol>.-->
     <p>16<sup>th</sup> January 2025</p>
 
-<!--Contact button wit subject add-->
-    <a href="mailto:email@example.com?subject=Blog%20reader%20message" class="email-link">Contact me</a>
+    <!--Contact button wit subject add-->
+    <a href="mailto:email@example.com?subject=Blog%20reader%20message" class="email-link">Email me</a>
     <br/>
 
-<!--back to Top-->
-    <a href="#Top" class="back-to-top">Back to Top</a>
-    </main>
-    <footer>
+    <!--back to Top-->
+    <aside class="back-to-top">
+        <a href="#Top" ><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="undefined"><path d="M440-160v-487L216-423l-56-57 320-320 320 320-56 57-224-224v487h-80Z"/></svg></a>
+    </aside>
+</main>
+<footer>
 
-    </footer>
+</footer>
 </body>
-<!--    ● Extra Credit:-->
-<!--    ○ Show the importance of some words by using different styles.-->
-<!--    ○ Use line breaks to separate content.-->
-<!--    ○ Add extra sub-paragraphs.-->
-<!--    ○ Add nested lists-->
 </html>
